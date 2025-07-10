@@ -1,0 +1,67 @@
+.feed h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pagination-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.pagination-buttons button {
+  padding: 8px 14px;
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-buttons button:hover {
+  background-color: #333;
+}
+
+.pagination-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-buttons span {
+  font-weight: bold;
+  font-size: 14px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 20px); /* 3 cards per row with 20px gap */
+  max-width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.feed {
+  flex: 3;
+}
+
+.favorites {
+  flex: 1.2;
+}
+

@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* This is now vertical layout */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.feed {
+  flex: 3;
+}
+
+.favorites {
+  flex: 1.2;
+}
+
+.movies-section {
+  margin-top: 0; /* already spaced using content's gap */
+}
